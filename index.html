@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!--Navbar-->
+ <nav class="navbar">
+    <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-link">
+        <li class="active">Home<a href="#"></a></li>
+        <li><a href="events.html">Tours</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="tours.html">About</a></li>
+        <li class="ctn"><a href="login.html">>Contact </a>  </li>
+    </ul>
+    <img src="Images/8527.jpg" alt="" class="menu-btn">
+
+    
+ </nav>
+
+    <header>
+        <div class="header-content">
+           <h2>Explore The colorful World</h2>
+           <div class="line"></div> 
+           <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+
+
+        </div>
+    </header>
+       
+
+    
+
+    <section class="footer">
+        <p>Create  by sachin rana frome uttrakhand
+            <p>copyright @ 2023 Outdoor ADVENTURE</p>
+        </p>
+    </section>
+    
+    <script>
+        const menuBtn =document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-link')
+
+        menuBtn.addEventListener('click',()=>{
+          navlinks.classList.toggle('mobile-menu')  
+        })
+    </script>
+    
+</body>
+</html>
